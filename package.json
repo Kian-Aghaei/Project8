@@ -3,7 +3,8 @@
   "dependencies": {
     "npm": "^6.5.0",
     "todomvc-app-css": "^2.0.1",
-    "todomvc-common": "^1.0.1"
+    "todomvc-common": "^1.0.1",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "jasmine": "^3.3.1",
