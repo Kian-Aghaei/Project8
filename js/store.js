@@ -80,13 +80,6 @@
 
 		callback = callback || function () {};
 
-		// Generate an ID
-	    var newId = ""; 
-	    var charset = "0123456789";
-
-        for (var i = 0; i < 6; i++) {
-     		newId += charset.charAt(Math.floor(Math.random() * charset.length));
-		}
 
 		// If an ID was actually given, find the item and update each property
 		if (id) {
@@ -103,8 +96,8 @@
 			callback.call(this, todos);
 		} else {
 
-    		// Assign an ID
-			updateData.id = parseInt(newId);
+    		// Generate an ID
+			updateData.id = new Date().getTime();
     
 
 			todos.push(updateData);
