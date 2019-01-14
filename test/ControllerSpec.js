@@ -60,7 +60,6 @@ describe('controller', function () {
 
 	it('should show entries on start-up', function () {
 		// TODO: write test
-		// new line for git test
 	});
 
 	describe('routing', function () {
