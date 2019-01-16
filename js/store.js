@@ -97,8 +97,7 @@
 		} else {
 
     		// Generate an ID
-			updateData.id = new Date().getTime();
-    
+			updateData.id = uuid();
 
 			todos.push(updateData);
 			localStorage[this._dbName] = JSON.stringify(data);
