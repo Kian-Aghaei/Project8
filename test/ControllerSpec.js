@@ -59,7 +59,9 @@ describe('controller', function () {
 	});
 
 	it('should show entries on start-up', function () {
-		// TODO: write test
+		setUpModel([]);
+		subject.setView('');
+		expect(view.render).toHaveBeenCalledWith('showEntries' , []);
 	});
 
 	describe('routing', function () {
