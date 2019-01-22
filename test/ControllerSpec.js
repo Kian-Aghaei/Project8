@@ -200,8 +200,6 @@ describe('controller', function () {
 
 			subject.setView('');
 
-			// view.render.calls.reset();
-			// model.read.calls.reset();
 			model.read.and.callFake(function (callback) {
 				callback([{
 					title: 'a new todo',
