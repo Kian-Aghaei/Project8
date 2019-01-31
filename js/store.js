@@ -30,7 +30,7 @@
 	 * Finds items based on a query given as a JS object
 	 *
 	 * @param {object} query The query to match against (i.e. {foo: 'bar'})
-	 * @param {function} callback	 The callback to fire when the query has
+	 * @param {function} callback The callback to fire when the query has
 	 * completed running
 	 *
 	 * @example
@@ -96,7 +96,7 @@
 			callback.call(this, todos);
 		} else {
 
-    		// Generate an ID
+    		// Generate a new ID
 			updateData.id = uuid();
 
 			todos.push(updateData);
