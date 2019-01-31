@@ -15,15 +15,15 @@
 
 		this._dbName = name;
 
-		if (!localStorage[name]) {
+		if (!localStorage.getItem(name)) {
 			var data = {
 				todos: []
 			};
 
-			localStorage[name] = JSON.stringify(data);
+			localStorage.setItem(name, JSON.stringify(data));
 		}
 
-		callback.call(this, JSON.parse(localStorage[name]));
+		callback.call(this, JSON.parse(localStorage.getItem(name)));
 	}
 
 	/**
@@ -44,7 +44,7 @@
 			return;
 		}
 
-		var todos = JSON.parse(localStorage[this._dbName]).todos;
+		var todos = JSON.parse(localStorage.getItem(this._dbName)).todos;
 
 		callback.call(this, todos.filter(function (todo) {
 			for (var q in query) {
@@ -63,7 +63,7 @@
 	 */
 	Store.prototype.findAll = function (callback) {
 		callback = callback || function () {};
-		callback.call(this, JSON.parse(localStorage[this._dbName]).todos);
+		callback.call(this, JSON.parse(localStorage.getItem(this._dbName)).todos);
 	};
 
 	/**
@@ -75,7 +75,7 @@
 	 * @param {number} id An optional param to enter an ID of an item to update
 	 */
 	Store.prototype.save = function (updateData, callback, id) {
-		var data = JSON.parse(localStorage[this._dbName]);
+		var data = JSON.parse(localStorage.getItem(this._dbName));
 		var todos = data.todos;
 
 		callback = callback || function () {};
@@ -92,7 +92,7 @@
 				}
 			}
 
-			localStorage[this._dbName] = JSON.stringify(data);
+			localStorage.setItem(this._dbName, JSON.stringify(data));
 			callback.call(this, todos);
 		} else {
 
@@ -100,7 +100,7 @@
 			updateData.id = uuid();
 
 			todos.push(updateData);
-			localStorage[this._dbName] = JSON.stringify(data);
+			localStorage.setItem(this._dbName, JSON.stringify(data));
 			callback.call(this, [updateData]);
 		}
 	};
@@ -112,7 +112,7 @@
 	 * @param {function} callback The callback to fire after saving
 	 */
 	Store.prototype.remove = function (id, callback) {
-		var data = JSON.parse(localStorage[this._dbName]);
+		var data = JSON.parse(localStorage.getItem(this._dbName));
 		var todos = data.todos;
 
 		for (var i = 0; i < todos.length; i++) {
@@ -122,7 +122,7 @@
 			}
 		}
 
-		localStorage[this._dbName] = JSON.stringify(data);
+		localStorage.setItem(this._dbName, JSON.stringify(data));
 		callback.call(this, todos);
 	};
 
@@ -133,7 +133,7 @@
 	 */
 	Store.prototype.drop = function (callback) {
 		var data = {todos: []};
-		localStorage[this._dbName] = JSON.stringify(data);
+		localStorage.setItem(this._dbName, JSON.stringify(data));
 		callback.call(this, data.todos);
 	};
 
