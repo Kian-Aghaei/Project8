@@ -81,7 +81,7 @@ There are 7 main JavaScript files in the project :
    ```html
     <input class="toggle-all" id="toggle-all" type="checkbox">
    ```
-##Best Practice and Performance Improvement
+## Best Practice and Performance Improvement
 >There were some parts of code which have been modified to improve its performance.
 - In *store.js*:
 
@@ -140,7 +140,7 @@ There are 7 main JavaScript files in the project :
     view.render.calls.reset();
     model.read.calls.reset();
     ```
-##Testing
+## Testing
 >For testing the different functionalities of the app we have used a testing framework, Jasmine. Some tests should have been added to the already written ones based on previously stablished premise. Here is the list of Specs which new tests were written to meet the expectations.
 1.	should show entries on start-up
 2.	should show active entries
@@ -152,5 +152,5 @@ There are 7 main JavaScript files in the project :
 8.	should add a new todo to the model
 9.	should remove an entry from the model
 
-##Audit
+## Audit
 
