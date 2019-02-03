@@ -155,9 +155,9 @@ There are 7 main JavaScript files in the project :
 ## Audit
 Regarding todolistme.net (competitor website) performance, we have three resources which block the rendering process. The method which we access to those resources could be modified in a way that improves our app's performance. In this case, we can use "Web Font Loader" to load the fonts and also implement requests to stylesheet resources - like JQUERY library - in an asynchronous way. Improving this aspect could save us almost 640ms according to lighthouse audit report and makes it Achilles heel of this app's performance.
 
-[![overview](./img/audit-overview-tn.jpg)](./img/audit-overview.jpg) | [![description1](./img/chrome-dev-description1-tn.jpg)](./img/chrome-dev-description1.jpg)
+[![Overview](./img/audit-overview-tn.jpg)](./img/audit-overview.jpg) | [![Description1](./img/chrome-dev-description1-tn.jpg)](./img/chrome-dev-description1.jpg)
 ---|---
-[![description2](./img/chrome-dev-description2-tn.jpg)](./img/chrome-dev-description2.jpg) | [![description](./img/chrome-dev-description1-tn.jpg)](./img/chrome-dev-description1.jpg)
+[![Description2](./img/chrome-dev-description2-tn.jpg)](./img/chrome-dev-description2.jpg) | [![Coverage](./img/coverage-tab-tn.jpg)](./img/coverage-tab.jpg)
 
 
 
