@@ -176,5 +176,7 @@ We may also reduce the time spent parsing, compiling, and executing JS in this a
 Regarding resource consumption of todolistme.net, we can safely say that based on a rough estimate and according to “webpagetest.org” result, almost 338KB or 23% of the loaded data are related to the Ads and 76KB or 5% are related to analytics. On a different point of view, almost 62% of the whole data is JS content which most of it is the result of loading Jquery library into the app and 22% of it is the images both Ads and the app images.
 
 [![Resource](./img/statistic-tn.jpg)](./img/statistic.jpg) | [![Ads](./img/ads-tn.jpg)](./img/ads.jpg)
+---|---
+[![Resource](./img/memory-usag-tn.jpg)](./img/memory-usage.jpg) |
 
 In comparison to our todo-list-app, since it is a light app without the use of any sorts of media like images, videos or, it has a better performance in terms of loading speed index and time to interactive. But in future and if we are going to improve or expand our own app, there are lots of modification which we could do in terms of accessibility and PWA.
