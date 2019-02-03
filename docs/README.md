@@ -157,7 +157,7 @@ Regarding todolistme.net (competitor website) performance, we have three resourc
 
 [![Overview](./img/audit-overview-tn.jpg)](./img/audit-overview.jpg) | [![Description1](./img/chrome-dev-description1-tn.jpg)](./img/chrome-dev-description1.jpg)
 ---|---
-[![Description2](./img/chrome-dev-description2-tn.jpg)](./img/chrome-dev-description2.jpg) | 
+[![Description2](./img/chrome-dev-description2-tn.jpg)](./img/chrome-dev-description2.jpg) | [![web-dev](./img/web-dev-overview-tn.jpg)](./img/web-dev-overview.jpg)
 
 One of the other major performance issues is regarding images which are being loaded into the web app. Almost all of the images which are being served as icons in this app, have PNG format. By changing these images format into formats like JPEG 2000, JPEG XR or WebP we could reduce the size of them and so decrease app's loading time. According to cloudinary.com report potentially by format changing we can decrease the overall size of the images from 13KB to 3.5KB and based on the lighthouse audit report, it saves us almost 750ms in loading time. Also since most of the images are serving as icons we have the option to use "CSS sprite" technique to combine all of them into one single file which loads once and then we can use it multiple times.
 
