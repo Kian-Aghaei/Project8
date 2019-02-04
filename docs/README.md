@@ -161,7 +161,7 @@ For testing the different functionalities of the app we have used a testing fram
 
 ----
 ## Audit
->Audits were performed using *Google Chrome*'s DevTools on (Version 72.0 - 64-bit) on *Windows 10* machine.
+>Audits were performed using *Google Chrome*'s DevTools (Version 72.0 - 64-bit) on *Windows 10* machine.
 
 Regarding todolistme.net (competitor website) performance, we have three resources which block the rendering process. The method which we access to those resources could be modified in a way that improves our app's performance. In this case, we can use "Web Font Loader" to load the fonts and also implement requests to stylesheet resources - like JQUERY library - in an asynchronous way. Improving this aspect could save us almost 640ms according to lighthouse audit report and makes it Achilles heel of this app's performance.
 
@@ -189,6 +189,8 @@ Regarding resource consumption of todolistme.net, we can safely say that based o
 ---|---
 [![Resource1](./img/memory-usage-tn.jpg)](./img/memory-usage.jpg) | 
 
-In comparison, our todo-list-app (which is being hosted on *[Github Pages](https://pages.github.com/)* for the purpose of audit tests), is a light and fast app without the use of any sorts of medias, images or videos and it has a better performance in terms of loading speed index and time to interactive. But in future and if we are going to improve or expand our own app, there are lots of modification which we could do in terms of accessibility and PWA.
+In comparison, our todo-list-app (which is being hosted on *[Github Pages](https://pages.github.com/)* for the purpose of audit tests), is a light and fast app which loads without any sorts of medias, images or videos and it has a better performance in terms of loading speed and time to interactive. But in future and if we are going to improve or expand our own app, there are lots of modification which we could do in terms of accessibility and PWA.
 
-[![OurAppOverview](./img/todolist-overview-tn.jpg)](./img/todolist-overview.jpg)
+[![OurAppOverview](./img/todolist-overview-tn.jpg)](./img/todolist-overview.jpg) | [![Todolist-Network](./img/todolist-network-tn.jpg)](./img/todolist-network.jpg)
+---|---
+[![TodoList-Loading](./img/todolist-loading-time-tn.jpg)](./img/todolist-loading-time.jpg) | [![Competitor-Loading](./img/competitor-loading-time-tn.jpg)](./img/competitor-loading-time.jpg)
