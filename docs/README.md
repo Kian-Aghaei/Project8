@@ -41,7 +41,7 @@ There are 7 main JavaScript files in the project :
  - **app.js**: It creates a new instance of the app itself by initializing the model, view, and controller.
 
 ## JavaScript Documentation
-To learn more about the inner mechanism of JavaScript in this app, you can check this *[Page](https://8th-project-of-oc.readthedocs.io/en/latest/)*
+>To learn more about the inner mechanism of JavaScript in this app, you can check this *[Page](https://8th-project-of-oc.readthedocs.io/en/latest/)* for detail. This JS Documentation was created automatically by the use of *JSDoc* and *Documentation.js* with some manual modification. 
 
 ## Bug Fixing
 >During the program’s manual test three bugs have been found. One of them was a simple typo, the other was the potential possibility of assigning an identical ID to two different entities on DB, and the last was a missing id of an input tag.
