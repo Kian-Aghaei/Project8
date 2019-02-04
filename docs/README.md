@@ -192,5 +192,7 @@ Regarding resource consumption of todolistme.net, we can safely say that based o
 In comparison, our todo-list-app (which is being hosted on *[Github Pages](https://pages.github.com/)* for the purpose of audit tests), is a light and fast app which loads without any sorts of medias, images or videos and it has a better performance in terms of loading speed and time to interactive. But in future and if we are going to improve or expand our own app, there are lots of modification which we could do in terms of accessibility and PWA.
 
 [![OurAppOverview](./img/todolist-overview-tn.jpg)](./img/todolist-overview.jpg) | [![Todolist-Network](./img/todolist-network-tn.jpg)](./img/todolist-network.jpg)
----|---
+
+
+
 [![TodoList-Loading](./img/todolist-loading-time-tn.jpg)](./img/todolist-loading-time.jpg) | [![Competitor-Loading](./img/competitor-loading-time-tn.jpg)](./img/competitor-loading-time.jpg)
