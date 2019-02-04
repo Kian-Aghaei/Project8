@@ -7,7 +7,7 @@
 -  [Testing](#Testing)
 -  [Audit](#Audit)
 -  [Competitor's Comparison](#Competitor's-Comparison)
--  [Summery](#Summery)
+-  [Summary](#Summary)
 
 
 ----
@@ -208,3 +208,9 @@ Page loads in: | **3630ms** | **696ms**
 [![TodoList-Loading](./img/todolist-loading-time-tn.jpg)](./img/todolist-loading-time.jpg) | [![Competitor-Loading](./img/competitor-loading-time-tn.jpg)](./img/competitor-loading-time.jpg)
 ---|---
 [![OurAppSize](./img/todolist-sizde-tn.jpg)](./img/todolist-sizde.jpg) | [![OurAppSize](./img/competitor-size-tn.jpg)](./img/competitor-size.jpg)
+
+----
+## Summary
+Our app performs in a way more efficient way than the competitor, but on the other hand competitor app has more useful functionalities and provides a much sophisticated interface. Loading time and general performance increased, instead of adding better functionality and user experience to the competitors app.
+
+[![Github acount](./img/GitHub-Mark-32px.png) Kian Aghaei  &copy;](https://github.com/Kian-Aghaei)
