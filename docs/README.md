@@ -22,7 +22,7 @@ You can test its functionality here:
 and also visit its repository *[here!](https://github.com/Kian-Aghaei/Project8)*
 
 ## Specification
->This application is written by the use of three major tools/languages of front-end development. HTML/CSS/JavaScript. Besides recently added “uuid” library, this app is developed with pure JavaScript (Vanilla JS) with the help of no forms of external libraries or frameworks.
+This application is written by the use of three major tools/languages of front-end development. HTML/CSS/JavaScript. Besides recently added “uuid” library, this app is developed with pure JavaScript (Vanilla JS) with the help of no forms of external libraries or frameworks.
 
 #### *HTML*:
  There is only one HTML file in the project (index.html) which is the entry point to the app.
@@ -41,10 +41,10 @@ There are 7 main JavaScript files in the project :
  - **app.js**: It creates a new instance of the app itself by initializing the model, view, and controller.
 
 ## JavaScript Documentation
->To learn more about the inner mechanism of JavaScript in this app, you can check this *[Page](https://8th-project-of-oc.readthedocs.io/en/latest/)* for detail. This JS Documentation was created automatically by the use of *JSDoc* and *Documentation.js* with some manual modification. 
+To learn more about the inner mechanism of JavaScript in this app, you can check this *[Page](https://8th-project-of-oc.readthedocs.io/en/latest/)* for detail. This JS Documentation was created automatically by the use of *JSDoc* and *Documentation.js* with some manual modification. 
 
 ## Bug Fixing
->During the program’s manual test three bugs have been found. One of them was a simple typo, the other was the potential possibility of assigning an identical ID to two different entities on DB, and the last was a missing id of an input tag.
+During the program’s manual test three bugs have been found. One of them was a simple typo, the other was the potential possibility of assigning an identical ID to two different entities on DB, and the last was a missing id of an input tag.
  - In *controller.js*:
  
     <code>Controller.prototype.adddItem</code>
@@ -86,7 +86,7 @@ There are 7 main JavaScript files in the project :
     <input class="toggle-all" id="toggle-all" type="checkbox">
    ```
 ## Best Practice and Performance Improvement
->There were some parts of code which have been modified to improve its performance.
+There were some parts of code which have been modified to improve its performance.
 - In *store.js*:
 
     In order to remove redundant piece of code and unnecessary loop this method:
@@ -145,7 +145,7 @@ There are 7 main JavaScript files in the project :
     model.read.calls.reset();
     ```
 ## Testing
->For testing the different functionalities of the app we have used a testing framework, Jasmine. Some tests should have been added to the already written ones based on previously stablished premise. Here is the list of Specs which new tests were written to meet the expectations.
+For testing the different functionalities of the app we have used a testing framework, Jasmine. Some tests should have been added to the already written ones based on previously stablished premise. Here is the list of Specs which new tests were written to meet the expectations.
 1.	should show entries on start-up
 2.	should show active entries
 3.	should show completed entries
