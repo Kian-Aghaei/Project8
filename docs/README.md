@@ -1,6 +1,7 @@
 ### Table of Contents
 -  [Introduction](#Introduction)
 -  [Specification](#Specification)
+-  [JavaScript Documentation](#JavaScript-Documentation)
 -  [Bug Fixing](#Bug-fixing)
 -  [Best Practice and Performance Improvement](#Best-Practice-and-Performance-Improvement)
 -  [Testing](#Testing)
@@ -38,6 +39,9 @@ There are 7 main JavaScript files in the project :
  - **view.js**: It wraps around the DOM and provides users with two major functionalities. First taking a todo application event and registers the handler and second, renders the page based on the given command with the correct data and options.
  - **controller.js**: It takes both model and view instances and acts as the controller between them.
  - **app.js**: It creates a new instance of the app itself by initializing the model, view, and controller.
+
+## JavaScript Documentation
+To learn more about the inner mechanism of JavaScript in this app, you can check this *[Page](https://8th-project-of-oc.readthedocs.io/en/latest/)*
 
 ## Bug Fixing
 >During the program’s manual test three bugs have been found. One of them was a simple typo, the other was the potential possibility of assigning an identical ID to two different entities on DB, and the last was a missing id of an input tag.

@@ -2,5 +2,5 @@
 OpenClassroom's 8th Project
 * Todo-List-App
 
-## Check out the documentation:
-* [Documentation](https://8th-project-of-oc.readthedocs.io/en/latest/)
+## Check out the project's description:
+* [Description](https://github.com/Kian-Aghaei/Project8/tree/master/docs)
