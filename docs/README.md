@@ -177,6 +177,6 @@ Regarding resource consumption of todolistme.net, we can safely say that based o
 
 [![Resource](./img/statistic-tn.jpg)](./img/statistic.jpg) | [![Ads](./img/ads-tn.jpg)](./img/ads.jpg)
 ---|---
-[![Resource1](./img/memory-usage-tn.jpg)](./img/memory-usage.jpg) |
+[![Resource1](./img/memory-usage-tn.jpg)](./img/memory-usage.jpg) | 
 
 In comparison to our todo-list-app, since it is a light app without the use of any sorts of media like images, videos or, it has a better performance in terms of loading speed index and time to interactive. But in future and if we are going to improve or expand our own app, there are lots of modification which we could do in terms of accessibility and PWA.
