@@ -6,6 +6,7 @@
 -  [Best Practice and Performance Improvement](#Best-Practice-and-Performance-Improvement)
 -  [Testing](#Testing)
 -  [Audit](#Audit)
+-  [Competitor's Comparison](#Competitor's-Comparison)
 -  [Summery](#Summery)
 
 
@@ -194,5 +195,16 @@ In comparison, our todo-list-app (which is being hosted on *[Github Pages](https
 [![OurAppOverview](./img/todolist-overview-tn.jpg)](./img/todolist-overview.jpg) | [![Todolist-Network](./img/todolist-network-tn.jpg)](./img/todolist-network.jpg)
 
 
+----
+## Competitor's Comparison
+In final comparison between the two we can observe the major difference:
+
+&nbsp; | todolistme.net | Our App
+--|--|--
+Transferred: | **11017 KB** | **3005 KB**
+DOM Content loads: | **1260ms** | **562ms**
+Page loads in: | **3630ms** | **696ms**
 
 [![TodoList-Loading](./img/todolist-loading-time-tn.jpg)](./img/todolist-loading-time.jpg) | [![Competitor-Loading](./img/competitor-loading-time-tn.jpg)](./img/competitor-loading-time.jpg)
+---|---
+[![OurAppSize](./img/todolist-sizde-tn.jpg)](./img/todolist-sizde.jpg) | [![OurAppSize](./img/competitor-size.jpg)](./img/competitor-size-tn.jpg)
