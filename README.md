@@ -1,4 +1,4 @@
-##OpenClassroom's 8th Project: Todo-List-App
+## OpenClassroom's 8th Project: Todo-List-App
 
 
 ### Check out the project's report:
