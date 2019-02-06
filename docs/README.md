@@ -213,4 +213,6 @@ Page loads in: | **3630ms** | **696ms**
 ## Summary
 Our app performs in a way more efficient way than the competitor, but on the other hand competitor app has more useful functionalities and provides a much sophisticated interface. Loading time and general performance increased, instead of adding better functionality and user experience to the competitors app.
 
-[![Github acount](./img/GitHub-Mark-32px.png) Kian Aghaei  &copy;](https://github.com/Kian-Aghaei)
+Feb,2019
+
+[![Github acount](./img/GitHub-Mark-32px.png) Kian Aghaei  &copy; ](https://github.com/Kian-Aghaei)
